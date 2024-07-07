@@ -168,7 +168,7 @@ padding-left: 5%;
   font-size: 14px;
   color: #fff;
   background-color: #43ba7f;
-  padding: 12px 30px;
+  padding: 8px 20px;
   display: inline-block;
   border-radius: 5px;
   font-weight: 500;
@@ -178,7 +178,7 @@ padding-left: 5%;
   font-size: 14px;
   color: #fff;
   background-color: #ff511a;
-  padding: 12px 30px;
+  padding: 8px 20px;
   display: inline-block;
   border-radius: 5px;
   font-weight: 500;
@@ -267,10 +267,12 @@ padding-left: 5%;
   font-style: normal;
 }
 .btn {
+  display: flex;
+
   font-size: 14px;
   color: #fff;
   padding: 10px 20px !important;
-  display: inline-block;
+ 
   border-radius: 5px;
   font-weight: 500;
   text-transform: capitalize;
@@ -1505,6 +1507,7 @@ button:hover {
 
 }
 .btn {
+  background-color: #fff;
   max-width: 100%;
   max-height: 60px;
   display: flex;
